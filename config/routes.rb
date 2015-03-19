@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#index'
-
+  root 'ember#bootstrap'
+  get '/*path' => 'ember#bootstrap'
+  
   resources :books
 
   # The priority is based upon order of creation: first created -> highest priority.
