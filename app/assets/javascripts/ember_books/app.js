@@ -1,0 +1,1 @@
+EmberBooks = Ember.Application.create();
