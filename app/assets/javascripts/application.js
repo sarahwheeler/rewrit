@@ -18,8 +18,8 @@
 //= require foundation
 //= require_tree .
 //= require_self
-//= require ./ember_books
+//= require_tree ./ember_books
 
 $(function(){ $(document).foundation(); });
 
-EmberBooks = Ember.Application.create();
+App = Ember.Application.create();
